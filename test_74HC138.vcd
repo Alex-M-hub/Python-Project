@@ -1,0 +1,130 @@
+$date
+    Tue Mar 28 09:21:12 2023
+$end
+$version
+    MyHDL 0.11
+$end
+$timescale
+    1ns
+$end
+
+$scope module test_74HC138 $end
+$var real 1 ! A0 $end
+$var real 1 " A1 $end
+$var real 1 # A2 $end
+$var real 1 $ E1_N $end
+$var real 1 % E2_N $end
+$var real 1 & E3 $end
+$var real 1 ' Y_N0 $end
+$var real 1 ( Y_N1 $end
+$var real 1 ) Y_N2 $end
+$var real 1 * Y_N3 $end
+$var real 1 + Y_N4 $end
+$var real 1 , Y_N5 $end
+$var real 1 - Y_N6 $end
+$var real 1 . Y_N7 $end
+$scope module _74HC1380 $end
+$var real 1 ! A0 $end
+$var real 1 " A1 $end
+$var real 1 # A2 $end
+$var real 1 ' Y_N0 $end
+$var real 1 ( Y_N1 $end
+$var real 1 ) Y_N2 $end
+$var real 1 * Y_N3 $end
+$var real 1 + Y_N4 $end
+$var real 1 , Y_N5 $end
+$var real 1 - Y_N6 $end
+$var real 1 . Y_N7 $end
+$var real 1 $ E1_N $end
+$var real 1 % E2_N $end
+$var real 1 & E3 $end
+$scope module A $end
+$var real 1 ! A(0) $end
+$var real 1 " A(1) $end
+$var real 1 # A(2) $end
+$upscope $end
+$scope module Y_N $end
+$var real 1 ' Y_N(0) $end
+$var real 1 ( Y_N(1) $end
+$var real 1 ) Y_N(2) $end
+$var real 1 * Y_N(3) $end
+$var real 1 + Y_N(4) $end
+$var real 1 , Y_N(5) $end
+$var real 1 - Y_N(6) $end
+$var real 1 . Y_N(7) $end
+$upscope $end
+$upscope $end
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+s0x0 !
+s0x0 "
+s0x0 #
+s0x0 $
+s0x0 %
+s0x0 &
+s0x0 '
+s0x0 (
+s0x0 )
+s0x0 *
+s0x0 +
+s0x0 ,
+s0x0 -
+s0x0 .
+$end
+s0x1 !
+s0x1 "
+s0x1 $
+s0x1 '
+s0x1 (
+s0x1 )
+s0x1 *
+s0x1 +
+s0x1 ,
+s0x1 -
+s0x1 .
+#10
+s0x0 !
+s0x0 "
+s0x1 #
+s0x1 &
+#20
+s0x0 #
+s0x0 $
+s0x1 %
+#30
+s0x1 "
+s0x0 %
+s0x0 '
+s0x0 (
+s0x0 )
+s0x0 *
+s0x0 +
+s0x0 ,
+s0x0 -
+s0x0 .
+#40
+s0x0 "
+s0x0 &
+s0x1 '
+s0x1 (
+s0x1 )
+s0x1 *
+s0x1 +
+s0x1 ,
+s0x1 -
+s0x1 .
+#50
+s0x1 #
+s0x1 $
+#60
+s0x1 &
+#70
+s0x1 !
+s0x0 #
+#80
+s0x1 #
+s0x0 $
+s0x1 %
+#90
