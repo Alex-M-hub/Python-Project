@@ -14,7 +14,7 @@ def test_74HC138():
     # The initialization process of the three inputs, the eight outputs and the three activation lines.
     _74HC138_1 = _74HC138(E1_N, E2_N, E3, A0, A1, A2, Y_N0,
                           Y_N1, Y_N2, Y_N3, Y_N4, Y_N5, Y_N6, Y_N7)
-    # the previously declared function is used in blocul test _74HC138
+    # the previously declared function is used in block test _74HC138
 
     @instance
     def stimulus():
